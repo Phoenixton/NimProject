@@ -1,16 +1,11 @@
 package main.entities;
 
 import javafx.event.EventHandler;
-import javafx.geometry.Point2D;
 import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.input.ScrollEvent;
-import javafx.scene.shape.Circle;
 import javafx.scene.shape.QuadCurve;
 import main.GenericEditingController;
-
-import javax.naming.ldap.Control;
-import java.util.ArrayList;
 
 /**
  * Created by perri on 09/05/2018.

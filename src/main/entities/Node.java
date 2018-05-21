@@ -320,6 +320,6 @@ public class Node extends Circle implements EventHandler<MouseEvent>{
 
     @Override
     public void handle(MouseEvent event) {
-        System.out.println("Handle stuff here :)");
+        System.out.println("");
     }
 }
