@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="820.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.NymEditingController">
+   <children>
+   
+       <Button fx:id="returnToMainMenu" layoutX="50.0" layoutY="733.0" onAction="#returnToMainMenu" text="return to menu">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <ColorPicker fx:id="neutralColor" layoutX="62.0" layoutY="150.0" onAction="#selectColor" />
+      <Pane fx:id="pane" layoutX="301.0" layoutY="165.0" prefHeight="600.0" prefWidth="800.0" />
+      <Button layoutX="1100.0" layoutY="775.0" mnemonicParsing="false" onAction="#launchGame" text="Play">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Label layoutX="1033.0" layoutY="23.0" text="GameType :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <ComboBox fx:id="gameType" layoutX="997.0" layoutY="56.0" prefWidth="150.0" />
+      <ComboBox fx:id="player2Type" layoutX="656.0" layoutY="56.0" onAction="#setStrategiesVisible" prefWidth="150.0" />
+      <Label layoutX="701.0" layoutY="23.0" text="Player 2 :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <ComboBox fx:id="player1Type" layoutX="450.0" layoutY="56.0" onAction="#setStrategiesVisible" prefWidth="150.0" />
+      <Label layoutX="495.0" layoutY="24.0" text="Player 1 :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <ComboBox fx:id="player1Strategy" layoutX="450.0" layoutY="103.0" prefWidth="150.0" />
+      <ComboBox fx:id="player2Strategy" layoutX="656.0" layoutY="103.0" prefWidth="150.0" />
+      <TextField fx:id="tige1" layoutX="528.0" layoutY="775.0" prefHeight="31.0" prefWidth="60.0">
+         <effect>
+            <DropShadow />
+         </effect></TextField>
+      <TextField fx:id="tige2" layoutX="604.0" layoutY="775.0" prefHeight="31.0" prefWidth="60.0">
+         <effect>
+            <DropShadow />
+         </effect></TextField>
+      <TextField fx:id="tige3" layoutX="677.0" layoutY="775.0" prefHeight="31.0" prefWidth="60.0">
+         <effect>
+            <DropShadow />
+         </effect></TextField>
+      <TextField fx:id="tige4" layoutX="752.0" layoutY="775.0" prefHeight="31.0" prefWidth="60.0">
+         <effect>
+            <DropShadow />
+         </effect></TextField>
+      <TextField fx:id="tige5" layoutX="827.0" layoutY="775.0" prefHeight="31.0" prefWidth="60.0">
+         <effect>
+            <DropShadow />
+         </effect></TextField>
+      <TextField fx:id="tige6" layoutX="898.0" layoutY="775.0" prefHeight="31.0" prefWidth="60.0">
+         <effect>
+            <DropShadow />
+         </effect></TextField>
+      <TextField fx:id="tige7" layoutX="973.0" layoutY="775.0" prefHeight="31.0" prefWidth="60.0">
+         <effect>
+            <DropShadow />
+         </effect></TextField>
+      <Text layoutX="323.0" layoutY="796.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Or try the quick setup :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="60.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Neutral color :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+   </children>
+
+</AnchorPane>
